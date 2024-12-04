@@ -1,0 +1,122 @@
+.container-historico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #4646FB;
+    height: 100vh;
+    color: white;
+  }
+  
+  .barra-superior {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+  }
+  
+  .barra-superior h2 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .barra-pesquisa {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+  }
+  
+  .entrada-pesquisa {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .icone-pesquisa {
+    background: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .lista-historico {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .item-historico {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #643a70;
+    border-radius: 8px;
+  }
+  
+  .foto-funcionario {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .informacao {
+    flex: 1;
+    font-size: 16px;
+  }
+  
+  .status {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .status-indicador {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+  }
+  
+  .vermelho {
+    background-color: red;
+  }
+  
+  .amarelo {
+    background-color: yellow;
+  }
+  
+  .verde {
+    background-color: green;
+  }
+
+.botao-devolucao {
+  background-color: #28a745;  
+  color: white;               
+  border: none;         
+  padding: 8px 16px;         
+  border-radius: 5px;       
+  cursor: pointer;           
+  font-size: 14px;           
+  transition: background-color 0.3s ease; 
+}
+
+.botao-devolucao:hover {
+  background-color: #218838;  
+}
+
+.botao-devolucao:active {
+  background-color: #1e7e34; 
+}
+
+
+.botao-devolucao:disabled {
+  background-color: #6c757d;  
+  cursor: not-allowed;        
+}
+
+  

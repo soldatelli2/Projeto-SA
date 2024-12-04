@@ -1,0 +1,58 @@
+.containers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dados-equipamento {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  color: black;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h2 {
+  margin: 0;
+  text-align: left;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.label,
+.botao,
+.entrada {
+  font-size: 16px;
+}
+
+.entrada {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.botao {
+  background-color: #4646FB;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.botao:hover {
+  background-color: #555555;
+}
+
+.foto-url {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

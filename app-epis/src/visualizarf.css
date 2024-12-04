@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.container-funcionarios {
+  display: flex;
+  height: 100vh;
+  background-color: #4646FB;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 16px;
+  outline: none; 
+}
+
+.search-icon {
+  background: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.tabela-funcionarios {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  color: black;
+}
+
+.tabela-funcionarios h3 {
+  margin: 0;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  font-weight: bold;
+}
+
+td {
+  border-top: 1px solid #ddd;
+}
+
+.acao-excluir {
+  color: red;
+  cursor: pointer;
+}
+
+.btn-remover {
+  background-color: #a72828;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-remover:hover {
+  background-color: #882121;
+}
+
+.btn-remover:active {
+  background-color: #7e1e1e;
+}
+
+
+.btn-remover:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.form-editar {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.btn-editar {
+  background-color: #001aff;
+  margin: 5px;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-editar:hover {
+  background-color: #1350aad8;
+}
+
+.btn-cancelar {
+  background-color: #ff0000;
+  margin: 5px;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-cancelar:hover {
+  background-color: #b61515;
+}
+
+.btn-salvar {
+  background-color: #10e409;
+  margin: 5px;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-salvar:hover {
+  background-color: #30af16;
+}

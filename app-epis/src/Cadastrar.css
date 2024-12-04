@@ -1,0 +1,52 @@
+.containerf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #4646FB;
+}
+
+.dados-fun {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  color: black;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h2 {
+  margin: 0;
+  text-align: left;
+}
+
+.formulariof {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.labelf, .botaof, .entradaf {
+  font-size: 16px;
+}
+
+.entrada {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.botaof {
+  background-color: #4646FB;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.botaof:hover {
+  background-color: #555555; 
+}
