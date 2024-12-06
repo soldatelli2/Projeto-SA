@@ -121,6 +121,7 @@ export function VisualizarEquipamentos() {
             <div className="form-group">
               <label>Nome</label>
               <input
+              id='nome'
                 type="text"
                 value={epiEditar.nome}
                 onChange={(e) =>
@@ -132,6 +133,7 @@ export function VisualizarEquipamentos() {
             <div className="form-group">
               <label>Data de Entrada</label>
               <input
+              id='data_entrada'
                 type="date"
                 value={epiEditar.data_entrada}
                 onChange={(e) =>
@@ -143,6 +145,7 @@ export function VisualizarEquipamentos() {
             <div className="form-group">
               <label>Quantidade</label>
               <input
+              id='quantidade'
                 type="number"
                 value={epiEditar.quantidade}
                 onChange={(e) =>

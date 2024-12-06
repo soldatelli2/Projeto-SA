@@ -120,6 +120,7 @@ export function VisualizarFuncionarios() {
             <div className="form-group">
               <label>Nome</label>
               <input
+              id='nome'
                 type="text"
                 value={funcionarioEditar.nome}
                 onChange={(e) =>
@@ -131,6 +132,7 @@ export function VisualizarFuncionarios() {
             <div className="form-group">
               <label>Cargo</label>
               <input
+              id='cargo'
                 type="text"
                 value={funcionarioEditar.cargo}
                 onChange={(e) =>
@@ -142,6 +144,7 @@ export function VisualizarFuncionarios() {
             <div className="form-group">
               <label>CPF</label>
               <input
+              id='cpf'
                 type="text"
                 value={funcionarioEditar.cpf}
                 onChange={(e) =>
@@ -153,6 +156,7 @@ export function VisualizarFuncionarios() {
             <div className="form-group">
               <label>Data de Nascimento</label>
               <input
+              id='data_nascimento'
                 type="date"
                 value={funcionarioEditar.data_nascimento}
                 onChange={(e) =>

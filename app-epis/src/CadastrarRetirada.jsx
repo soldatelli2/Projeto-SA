@@ -41,6 +41,7 @@ export function CadastrarRetirada() {
                 <h2>Cadastro de Retirada</h2>
                 <label className="label">Data de Retirada:</label>
                 <input
+                    id='data_retirada'
                     type="date"
                     value={data_retirada}
                     onChange={(e) => setData_retirada(e.target.value)}
@@ -50,6 +51,7 @@ export function CadastrarRetirada() {
 
                 <label className="label">Quantidade Retirada:</label>
                 <input
+                    id='quantidade_retirada'
                     type="number"
                     value={quantidade_retirada}
                     onChange={(e) => setQuantidade_retirada(Number(e.target.value))}
@@ -59,6 +61,7 @@ export function CadastrarRetirada() {
 
                 <label className="label">Registro do EPI:</label>
                 <input
+                    id='num_registro'
                     value={num_registro}
                     onChange={(e) => setNum_registro(Number(e.target.value))}
                     className="entrada"
@@ -67,6 +70,7 @@ export function CadastrarRetirada() {
 
                 <label className="label">Crachá do Funcionário:</label>
                 <input
+                    id='cracha'
                     value={cracha}
                     onChange={(e) => setCracha(Number(e.target.value))}
                     className="entrada"
